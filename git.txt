@@ -1,0 +1,39 @@
+git
+
+Pre-requisite
+git software install
+GitHub account create
+
+Repository create - It is like container/ folder it contains project files
+1. Create a new repository
+https://github.com/Dhanashree2023/Amazon_26.git
+
+2. project folder - txt
+
+PUSH - 
+type commands in project location
+
+1. tell git who you are
+git config --global user.name "Dhanashree2023"
+git config --global user.email "Prachi123451@gmail.com"
+
+2. git init :- create local repository in your project location    [.git hidden folder create]
+3. git add *  :- * means all files  |  code goes into Staging area | your code is ready to be committed
+
+git status
+
+4. git commit -m "msg" | code goes into the local repository
+
+5. git remote add origin "https://github.com/Dhanashree2023/Amazon_26.git"    | remote repository 
+
+6. git push origin master
+
+next time
+1. git add *
+2. git commit -m "second commit"
+3. git push origin master
+
+
+
+
+
